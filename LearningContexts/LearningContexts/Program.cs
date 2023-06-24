@@ -1,10 +1,14 @@
-﻿namespace LearningContexts
+﻿using LearningContexts.WashingMachine;
+
+namespace LearningContexts
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            WachingMachine wMachine = WachingMachine.createInstance();
+            wMachine.Start();
+            Console.ReadKey();
         }
     }
 }
