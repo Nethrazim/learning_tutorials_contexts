@@ -1,6 +1,7 @@
 ﻿using LearningContexts.DesignPatterns.Creational.Builder;
 using LearningContexts.DesignPatterns.Creational.Factory;
 using LearningContexts.DesignPatterns.Creational.Prototype;
+using LearningContexts.DesignPatterns.Structural.Composite;
 using LearningContexts.WashingMachine;
 
 namespace LearningContexts
@@ -13,7 +14,8 @@ namespace LearningContexts
             //wMachine.Start();
             //FactoryMethod.Run();
             //Prototype.Run();
-            Builder.Run();
+            //Builder.Run();
+            CompositeRun.Run();
             Console.ReadKey();
         }
     }
